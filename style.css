@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Calculator {
+  background-color: black;
+  color: white;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  width: 400px;
+  height: 600px;
+  border: solid 5px rgb(54, 54, 54);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-spacing: 10px;
+}
+.Calculator th {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin: 4px;
+  cursor: pointer;
+}
+.Calculator td {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(54, 54, 54);
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  margin: 4px;
+  cursor: pointer;
+}
+.Calculator :hover {
+  background-color: rgba(255, 255, 255, 0.041);
+  transition: 0.4s;
+}
+.input td {
+  height: 20px;
+  width: 345px;
+  background-color: rgba(255, 255, 255, 0.336);
+  border-radius: 5px;
+  height: 45px;
+  border: 2px solid white;
+  padding: 0px 25px 0px 25px;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+}
